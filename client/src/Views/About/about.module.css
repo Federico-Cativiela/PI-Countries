@@ -1,0 +1,51 @@
+.background {
+  background-image: url("../../assets/About-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #4421f3;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4421f3;
+  color: white;
+}
+
+.about {
+  background-color:	 	 #d2e0f9;
+  max-width: 1000px;
+  margin-left: 500px;
+  margin-top: 80px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
